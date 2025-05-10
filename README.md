@@ -126,7 +126,7 @@ The main API entrypoint is located at `main.py`. All endpoints reside under the 
 * **overall\_review:** Aggregate review statistics for the specified company, including overall and categorical ratings.
 * **reviews:** Detailed individual reviews providing ratings, summaries, advantages, disadvantages, resignation reasons (if any), and timestamps.
 
-The review parameters are configurable from `app.schema.review_model.py`.
+> **Note:** The review parameters are configurable from `app.schema.review_model.py`.
 
 ---
 
@@ -150,7 +150,7 @@ TEAMBLIND_USER_PASS=yourpassword
 
 ## Running the Application
 
-### Docker Compose (Recommended)
+### Docker Compose
 
 1. **Prerequisites:** Install Docker.
 2. Create `.env` from the provided example.
@@ -189,5 +189,3 @@ TEAMBLIND_USER_PASS=yourpassword
 ## Contribution
 
 Contributions, feature requests, and feedback are warmly welcomed! Please submit pull requests or issues via the project repository.
-
----
